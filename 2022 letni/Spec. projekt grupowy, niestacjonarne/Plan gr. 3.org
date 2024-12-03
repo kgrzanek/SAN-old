@@ -1,0 +1,178 @@
+* DONE 5 III Wprowadzenie
+
+* DONE zj. 2
+ - Podział na zespoły 2-5 osób w zespole
+ - Tematyka projektu
+ - Podział projektu na moduły funkcjonalne i podział ról w projekcie
+ - Zespoły opowiadają o powyższych punktach
+ - Przydział tasków na kolejny sprint (autorami tasków są członkowie zespołu)
+
+** Zespół 1
+   - Kamil Maćkowski
+   - Jakub Stodulski
+*** Temat: Księgarnia on-line
+*** Moduły funkcjonalne:
+   - Katalog produktów - JS
+   - Profile użytkowników (admin, norm. user, premium user) - KM
+   - Bestsellery - JS
+   - Nowości i sprzedaż przedpremierowa - KM
+   - Promocje - KM
+   - Koszyk - JS
+   - Kampanie reklamowe, marketing - KM
+
+** Zespół 2
+   - Konrad Lewiński
+   - Jakub Michalak
+*** Temat: Serwis ogłoszeniowy
+*** Moduły funkcjonalne:
+   - Profile użytkownika - JM
+   - Free i Premium - KL
+   - Ogłoszenie - JM
+   - Odpowiedź na ogłoszenie - JM
+   - Newsletter - KL
+   - Praca - KL
+
+** Zespół 3
+  - Jan Szmagaj
+  - Honorata Owczarek
+  - Damian Jóźwiak
+  - Piotr Instunajd
+*** Temat: Serwis społecznościowy (a'la Facebook)
+*** Moduły:
+  - Profile - JS, PI
+  - Czat - HO
+  - Tablica (dashboard) - JS, AD
+  - Szata graficzna aplikacji i front-end - DJ, AD
+
+** Zespół 4
+   - Krzysztof Błaszczyk
+   - Adrian Szymański
+   - Paweł Kozub
+   - Michał Kaluga
+*** Temat: Sklep internetowy
+*** Moduły funkcjonalne:
+   - Katalog - AS
+   - Ceny i cenniki - AS
+   - Profile - KB
+   - Koszyk i zamówienie - MK
+   - Promocje, bonusy, zniżki - MK
+   - Marketing, kampanie reklamowe - PK
+
+** Zespół 5
+   - Adam Lisik
+   - Jonasz Łapiński
+   - Mateusz Pieczątka
+*** Temat: Sklep internetowy z meblami
+*** Podział:
+   - Warstwa biznesowa - JŁ
+   - Baza danych - AL
+   - Front-end   - MP
+
+** Zespół 6
+     - Adrian Dąbrowski
+*** Temat: Serwis społecznościowy
+
+* DONE zj. 4
+** Zespół 1
+   - Must-have:   Przygotowanie dokumentu projektowego
+   - Must-have:   Opracowanie studium technologii i środowisk hostingowych
+   - Must-have:   Katalog produktów - projekt
+   - Must-have:   Profile użytkowników - projekt
+   - Could-have:  Do powyższych 2 modułów zrealizować projekt struktur bazy danych
+   - Sprint-goal: Opracowanie technologii i realizacja 2 pierwszych modułów
+   - Confidence-voting (1-5): [4.5, 4.5]
+
+** Zespół 2
+   - Must-have:   Przygotowanie dokumentu projektowego
+   - Must-have:   Opracowanie studium technologii i środowisk hostingowych
+   - Must-have:   Opis funkcjonalności i diagramy przypadków użycia
+   - Could-have:  Do powyższych 2 modułów zrealizować projekt struktur bazy danych
+   - Sprint-goal: Opracowanie technologii i opis funkcjonalności z diagramami
+   - Confidence-voting (1-5): [4.5, 4.5]
+
+** Zespół 3
+   - Must-have:   Przygotowanie dokumentu projektowego
+   - Must-have:   Opracowanie studium technologii i środowisk hostingowych
+   - Must-have:   Opracowanie wstępne szaty graficznej w wybranych widokach
+   - Sprint-goal: Przygotowanie technologii, hostingu i wybór szaty graficznej
+   - Confidence-voting (1-5): [4.5, 4.5, 4.5, 4.5]
+
+** Zespół 4
+   - Must-have:   Przygotowanie dokumentu projektowego
+   - Must-have:   Opracowanie studium technologii i środowisk hostingowych
+   - Must-have:   Katalog produktów - projekt
+   - Must-have:   Profile użytkowników - projekt
+   - Could-have:  Do powyższych 2 modułów zrealizować projekt struktur bazy danych
+   - Sprint-goal: Opracowanie technologii i realizacja 2 pierwszych modułów
+   - Confidence-voting (1-5): [5, 4.5, 5, 4.5]
+
+** Zespół 5
+   - Must Have : Projekt warstwy prezentacji (front) - M
+   - Must Have:  Projekt struktury BD - A
+   - Must Have:  Opracowanie studium technologii i środowisk hostingowych - J
+   - Could Have: Implementacja modeli - J
+   - Could Have: Postawienie bazy danych (postgre) - A
+   - Could Have: Podstawowy szablon (z routingiem) frontu - M
+   - Sprint-goal: Opracowanie projektów wstępnych wybranych elementów systemu
+   - Confidence-voting (1-5): [5, 4.5, 4.5]
+
+** Zespół 6
+   - Must-have: Stworzenie front-endu w React.js
+
+* zj. 6
+
+** DONE Zespół 1
+   - Must-have:  Projekt szaty graficznej i widoków (formatek)
+   - Could-have: Szablon z routingiem po stronie serwera
+   - Confidence-voting (1-5): [4,4]
+
+** DONE Zespół 2
+   - Must-have: Rozbudowa bazy danych, uspójnienie, 2 kolejne moduły - rozpisanie z przypadkami użycia (newsletter, ogłoszenia)
+   - Confidence-voting (1-5): [4,4]
+
+** DONE Zespół 3
+   - Must-have: Opracowanie studium technologii i środowisk hostingowych - dopracować
+   - Must-have: Opracowanie szaty graficznej w wybranych widokach - rozbudowa
+   - Must-have: Przygotowanie diagramów przypadków użycia systemu
+   - Could-have: Przygotowanie dokładnego projektu klas encji
+   - Confidence: [4,4,4]
+
+** DONE Zespół 4
+   - Must-have: Ceny i cenniki - projekt + baza danych
+   - Must-have: Opracowanie szaty graficznej systemu
+   - Confidence-voting (1-5): [4.5, 4.5, 4]
+
+** DONE Zespół 5
+   - Must-have: Panel użytkownika -> dane konta, koszyk, zamówienia
+   - Must-have: Strona produktu -> zdjęcia cena, wymiary, opis
+   - Must-have: Lista produktów w katalogu Produkty
+   - Must-have: Uzupełnienie strony O nas
+   - Must-have: Stworzenie diagramów przypadków użycia, aktywności, sekwencji
+   - Could-have: Wstępna implementacja
+   - Confidence-voting (1-5): [5, 4.5, 4.5]
+
+** DONE Zespół 6
+   - Must-have: Realizacja panelu z informacją, kto jest on-line
+   - Should-have: Dodanie komentarzy do postów
+   - Confidence: [5]
+
+* zj. 8 Ocena
+
+** DONE Zespół ocena 5
+   - Could-have: Kampania reklamowa
+
+** DONE Zespół 2 ocena 5
+   - Must-have: Odpowiedź na ogłoszenie, system premium (wykupienie i korzyści)
+
+** DONE Zespół 3 ocena 5
+   - Could-have: Marketplace
+
+** DONE Zespół 4 ocena 5
+   - Could-have: Diagram use-case UML
+
+** DONE Zespół 5 ocena 5 (warunkowo, czekamy na opracowanie p. Pieczątki)
+   - Must-have: Panel zamówień
+   - Must-have: Formularz reklamacyjny
+
+** DONE Zespół 6 ocena 5
+   - Could-have: Panel aktywnych osób

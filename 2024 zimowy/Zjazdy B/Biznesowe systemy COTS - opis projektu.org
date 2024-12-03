@@ -1,0 +1,16 @@
+* Wersja podstawowa
+   Zrealizować rozwiązanie informatyczne wykorzystujące jakiś gotowy system lub framework:
+   - Wordpress
+   - Joomla
+   - Jakiś system e-learningowy, np. Moodle
+   - itd.
+
+   Warunkiem zaliczenia jest przedstawienie PDF-a zawierającego widok(i) działającej aplikacji.
+   Można (a nawet jest to zalecane) posłużyć się dockerem lub docker-composem.
+
+* Wersja "bohaterska"
+   Polega na stworzeniu lub wykorzystaniu jakiegoś własnego oprogramowania, które
+   następnie będzie integrowane z którymś z wymienionych wyżej rozwiązań.
+   Można również integrować się z systemami o charakterze biznesowym,
+   finansowym np. Stripe. W takim scenariuszu Stripe jest systemem COTS a projekt
+   taki jest jednocześnie projektem zaliczeniowym dla przedmiotu "Warstwy integracji".

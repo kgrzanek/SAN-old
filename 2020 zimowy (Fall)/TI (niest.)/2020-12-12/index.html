@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Form</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .header {
+      width: 100vw;
+      height: 100px;
+      background-color: rgb(189, 189, 189);
+    }
+
+    .content {
+      width: 100vw;
+      height: calc(100vh - 100px - 80px);
+      background-color: #fff;
+    }
+
+    .footer {
+      width: 100vw;
+      height: 80px;
+      background-color: rgb(189, 189, 189);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .footer span {
+      margin-left: 10px;
+      margin-right: 10px;
+      text-align: center;
+    }
+  </style>
+
+</head>
+<body>
+  <div class="header"></div>
+
+  <div class="content">
+    <form action="">
+      <select name="pizzasSelect" id="pizzasSelect">
+        <!-- <option value="margherita">Margherita</option>
+        <option value="napoletana">Napoletana</option>
+        <option value="funghi">Funghi</option> -->
+      </select>
+    </form>
+  </div>
+
+  <div class="footer">
+    <span>Polityka bezpieczeństwa</span> | <span>Zasady użytkowania</span>
+  </div>
+
+  <script src="js/program.js"></script>
+</body>
+</html>

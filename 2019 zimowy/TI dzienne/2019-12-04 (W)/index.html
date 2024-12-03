@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .signUpForm {
+      display: grid;
+      grid-template-columns: 40% 60%;
+      grid-template-rows: repeat(4, auto);
+      gap: 5px;
+      align-items: center;
+    }
+
+    .formText {
+      font-size: 3vw;
+    }
+
+    #counterText {
+      cursor: pointer;
+    }
+
+  </style>
+
+</head>
+<body>
+
+  <div class="signUpForm">
+    <div class="formText">Email:</div>
+    <input class="formText" type="text" id="formEmail">
+
+    <div class="formText">Password:</div>
+    <input type="password" name="" id="">
+
+    <div class="formText">Passwd. Confirmation</div>
+    <input type="password" name="" id="">
+
+    <div class="formText">You've clicked:
+      <span id="counterText">0</span> times
+    </div>
+    <button id="submitButton" type="submit">Sign-Up</button>
+  </div>
+
+  <script>
+
+    // function foo(x) {
+    //   return x + 2;
+    // }
+
+    // const foo = function(x) {
+    //   return x + 2;
+    // };
+
+    // const foo = (x) => {
+    //   return x + 2;
+    // };
+
+    const formEmail    = document.getElementById('formEmail');
+    const counterText  = document.getElementById('counterText');
+    const submitButton = document.getElementById('submitButton');
+
+    const EMAILS = ['kongra@gmail.com', 'kgrzanek@san.edu.pl'];
+
+    function onEmailChange(event) {
+      const beforeValue = formEmail.value;
+      setTimeout(() => {
+        const email = formEmail.value;
+        if (email == beforeValue) {
+          const i = EMAILS.findIndex(e => e == email);
+          if (i == -1) {
+            console.log('OK ' + email);
+          } else {
+            console.log('IN-USE ' + email);
+          }
+        }
+      }, 1000);
+    }
+
+    formEmail.addEventListener('input', onEmailChange);
+
+    function makeCounter() {
+      let value = 0;
+      return (flag) => {
+        if (flag == "reset") {
+          value = 0;
+        } else {
+          value += 1;
+        }
+
+        return value;
+      };
+    }
+
+    const counter = makeCounter();
+
+    submitButton.addEventListener('click', (e) => {
+      counterText.textContent = counter();
+    });
+
+    counterText.addEventListener('click', (e) => {
+      counterText.textContent = counter("reset");
+    });
+
+    // formEmail.addEventListener('input', (e) => {
+    //   console.log(formEmail.value);
+    // });
+
+    function isEven(n) {
+      return n % 2 == 0;
+    }
+
+    function collatzTrans(n) {
+      if (isEven(n)) {
+        return n / 2;
+      }
+      return 3 * n + 1;
+    }
+
+    function collatzLen(n) {
+      let result = 1;
+      while(true) {
+        if (n == 1) return result;
+        n = collatzTrans(n);
+        result++;
+      }
+    }
+
+    function euler14(n) {
+      let maxLen = 0;
+      let j      = 0;
+      for (let i = 1; i < n; i++) {
+        let len = collatzLen(i);
+        if (len > maxLen) {
+          maxLen = len;
+          j = i;
+        }
+      }
+
+      console.log("Result for " + j + " is " + maxLen);
+    }
+
+    function test1() {
+      let startTime = new Date();
+
+      for (let i=0; i < 10; i++) {
+        euler14(1000000);
+      }
+
+      let endTime = new Date();
+      console.log("It took " + ((endTime - startTime) / 1000.0) + " secs");
+    }
+  </script>
+
+</body>
+</html>

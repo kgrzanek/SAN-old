@@ -1,0 +1,9 @@
+* Zadanie 1. Zaimplementować operatory +, -, *, / dla klasy Money
+* Zadanie 2. Zrealizować wzorzec singleton z odroczeniem
+  - bezpieczny z punktu widzenia współbieżności
+  - wykorzystujący semafory do realizacji sekcji krytycznej
+* Zadanie 3. Opracuj factory method dla klasy realizującej
+  funkcjonalność dowolnie przez Państwa wybraną.
+* Zadanie 4. Stwórz hierarchię klas oraz odpowiadającą tej hierarchii
+  strukturę klas realizujących wzorzec abstract factory.
+* Zadanie 5. Wykorzystaj wzorzec Builder do realizacji dowolnie wybranego celu.

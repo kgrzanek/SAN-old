@@ -1,0 +1,28 @@
+services:
+  orm-d-local-postgres:
+    image: postgres:17
+    container_name: orm-d-local-postgres
+    shm_size: 128mb
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres12345
+      POSTGRES_DB: orm_d
+    ports:
+      - "5501:5432"
+    volumes:
+      - $HOME/.docker-volumes/orm-d/local-postgres:/var/lib/postgresql/data
+      - ./db/init:/docker-entrypoint-initdb.d
+
+  orm-d-local-test-postgres:
+    image: postgres:17
+    container_name: orm-d-local-test-postgres
+    shm_size: 128mb
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres12345
+      POSTGRES_DB: orm_d
+    ports:
+      - "5502:5432"
+    volumes:
+      - $HOME/.docker-volumes/orm-d/local-test-postgres:/var/lib/postgresql/data
+      - ./db/init:/docker-entrypoint-initdb.d

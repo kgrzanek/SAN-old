@@ -1,0 +1,14 @@
+* Celem jest użycie jednej z metod integracji systemów/serwisów
+   - Pliki na dysku
+   - Wspólna baza danych
+   - RMI (REST/HTTP, GraphQL, CORBA, SOAP, RMI w Javie)
+   - Message broker (Kafka, Rabbit MQ)
+
+   w dowolnym oprogramowaniu stworzonym przez siebie lub gotowym (COTS).
+
+   Przykłady:
+   - Eksport plików z Joomli, Wordpressa, jakiegoś sklepu internetowego
+     Chodzi o to, żeby zaprezentować, w jaki sposób oprogramowanie to integruje się ze światem zewnętrznym.
+
+   - Realizacja RMI lub message-brokera związana jest z koniecznością napisania własnych kodów, np.
+     https://quarkus.io/guides/kafka

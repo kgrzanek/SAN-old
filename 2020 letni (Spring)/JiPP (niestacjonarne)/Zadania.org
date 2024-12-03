@@ -1,0 +1,22 @@
+* Zadanie 1.
+  Napisz własną polimorficzną procedurę i zademonstruj jej działanie
+  na obiektach kilku różnych typów.
+* Zadanie 2.
+  Napisz polimorficzne procedury wykorzystujące tablice oraz wariadyczną arność
+  procedur. Skorzystaj z przykładu z Zoo.
+* Zadanie 3.
+  Proszę zaprojektować hierarchię klas wykorzystującą klasy abstrakcyjne.
+* Zadanie 4.
+  Proszę zrealizować interfejs opisujący dowolny fragment rzeczywistości.
+  Proszę zaproponować realizacje tego interfejsu w klasach implementujących go.
+  Proszę wyposażyć interfejs w domyślne metody.
+* Zadanie 5.
+  Proszę zamodelować dowolny fragment rzeczywistości z wykorzystaniem typów wyliczeniowych.
+  Proszę wyposażyć Państwa typy wyliczeniowe w mechanizmy reprezentowane w postaci metod.
+* Zadanie 6.
+  Proszę napisać program, który tworzy kolekcję (ale nie tablicę) liczb typu Double i wyznacza
+  medianę i średnią na tej kolekcji. Kolekcja ma być generyczna. Proszę wykorzystać klasy \
+  kolekcji z biblioteki standardowej języka Java lub poznany właśnie ArraySeq.
+
+  Dla osób nie korzystających z Javy: Zrealizuj w swoim ulubionym języku klasę generyczną
+  ArraySeq.

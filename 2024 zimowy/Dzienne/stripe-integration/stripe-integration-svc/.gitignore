@@ -1,0 +1,7 @@
+.clj-kondo/.cache/
+.cpcache/
+.eastwood
+*jar
+.nrepl-port
+resources/.commit_hash
+target/

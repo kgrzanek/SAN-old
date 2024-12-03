@@ -1,0 +1,15 @@
+* Zadanie 1. https://projecteuler.net/problem=2
+  - Hint: Użyj typu long zamiast int
+* Zadanie 2. https://projecteuler.net/problem=4
+* Zadanie 3. https://projecteuler.net/problem=9
+* Zadanie 4. https://projecteuler.net/problem=12
+* Zadanie 5. https://projecteuler.net/problem=14
+* Zadanie 6.
+  Zrealizuj procedurę, która liczy i zwraca wartość iloczynu skalarnego wektorów
+  w przestrzeni R(n).
+* Zadanie 7.
+  - Zaimplementuj w postaci procedury mnożenie 2 macierzy o wymiarze NxN
+  - Zrealizuj powyższy punkt przy założeniu, że macierze nie są kwadratowe (*)
+* Zadanie 8.
+  Napisz procedurę, która zwraca zbiór potęgowy podanego zbioru
+  wejściowego. Zbiory mogą być reprezentowane w postaci tablic.

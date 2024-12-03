@@ -1,0 +1,30 @@
+* Zadanie 1. Napisz program komputerowy,
+   który powołuje do życia 5-10 wątków działających na współdzielonej pamięci
+   (współdzielonych zmiennych). Zaobserwuj działanie programu w kolejnych jego
+   uruchomieniach. Co możesz powiedzieć?
+
+* Zadanie 2.
+   Napisz program, który:
+   1. Tworzy tablicę 1_000_000 losowych elementów typu int lub double
+   2. Sortuje tablicę używając algorytmu quicksort i 1 zadania
+   3. Sortuje tablicę uzywając algorytmu quicksort i niezależnych n(*) zadań (wątków)
+   4. Gdyby się nie udało podejście z wykorzystaniem puli wątków(*), proszę
+      tworzyć nowy wątek przy każdym zejściu rekurencyjnym i po prostu
+      zliczać utworzone w ten sposób wątki w zmiennej n.
+
+   Po każdym posortowaniu proszę napisać asercję/e celem upewnienia się, że
+   nieposortowana na początku tablica stała się faktycznie posortowana.
+
+   Jak zmienia się czas wykonania algorytmu dla zmieniającej się wartości n?
+   Jak wyglądają czasy wykonania, kiedy ilość elementów w tablicy wynosi
+   - 10_000_000
+   - 10_000
+   - 100
+
+   (*) - dla chętnych
+
+* Zadanie 3.
+   Zrealizuj rozwiązanie problemu czytelników i pisarzy z wykorzystaniem semaforów
+
+* Zadanie 4.
+   Zrealizuj rozwiązanie problemu 5 filozofów z wykorzystaniem semaforów

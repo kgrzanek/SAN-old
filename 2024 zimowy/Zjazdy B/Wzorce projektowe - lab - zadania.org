@@ -1,0 +1,20 @@
+# W dowolnym języku programowania:
+
+* Zadanie 1.
+   - Zaimplementuj wzorzec projektowy o nazwie Singleton
+   - Zapewnij odroczoną inicjalizację obiektu
+   - Zagwarantuj poprawność powyższych punktów w warunkach współbieżności
+   - Zadanie wykonaj inaczej niż na wykładzie
+
+* Zadanie 2.
+   Opierając się na wiedzy o wzorcach:
+   - Abstract Factory
+   - Factory Method
+
+   zrealizuj przykładowe programy wykorzystujące te wzorce.
+
+* Zadanie 3.
+   Opierając się na wiedzy o wzorcu
+   - Parser
+
+   zrealizuj przykładowy program wykorzystujący ten wzorzec.
